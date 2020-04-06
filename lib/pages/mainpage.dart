@@ -43,15 +43,9 @@ class _MainPageState extends State<MainPage> {
       },
       child: SafeArea(
         child: Scaffold(
-          //drawer: CustomDrawer(),
+          drawer: CustomDrawer(),
           appBar: AppBar(
             title: Text("Let's Quiz"),
-            actions: <Widget>[
-              IconButton(
-                icon: Icon(Icons.more_vert, size: 30.0, color: Colors.white,),
-
-              ),
-            ],
             flexibleSpace: Material(
               elevation: 5.0,
               child: Container(
