@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "746544755482",
+    "firebase_url": "https://letsquiz-df9cf.firebaseio.com",
+    "project_id": "letsquiz-df9cf",
+    "storage_bucket": "letsquiz-df9cf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:746544755482:android:98fd01179ba78b7282f2a3",
+        "android_client_info": {
+          "package_name": "com.nitts.letsquiz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "746544755482-o62dopgonjfvmcm01764fqhehrr9p11s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBN_LIx11KQDiYLBMloB6KaTLprkyNrV0k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "746544755482-o62dopgonjfvmcm01764fqhehrr9p11s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
