@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:fluttertoast/fluttertoast.dart';
 import 'package:letsquiz/utils/constants.dart';
 import 'package:letsquiz/widgets/choicebutton.dart';
 
@@ -15,18 +14,15 @@ class _QuestionPageState extends State<QuestionPage> {
     SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp, DeviceOrientation.portraitDown]);
     return WillPopScope(
       onWillPop: () {
-        Fluttertoast.showToast(
-        msg: "You can't quit ongoing quiz",
-        toastLength: Toast.LENGTH_LONG,
-        gravity: ToastGravity.BOTTOM,
+        Scaffold.of(context).showSnackBar(
+           SnackBar(content: Text("cvnoagfd "))
     );
-
-        return Future.value(false);
+    return Future.value(true);
       },
       child: SafeArea(
         child: Scaffold(
           appBar: AppBar(
-            leading: Container(),
+            //leading: Container(),
             title: Text("Let's Quiz"),
             centerTitle: true,
             flexibleSpace: Material(
@@ -61,8 +57,6 @@ class _QuestionPageState extends State<QuestionPage> {
                 child: Container(
                   child: Column(
                     children: <Widget>[
-                      choiceButton(),
-                      choiceButton(),
                       choiceButton(),
                       choiceButton(),
                     ],
